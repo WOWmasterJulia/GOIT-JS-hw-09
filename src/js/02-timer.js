@@ -22,7 +22,7 @@ function changeTime() {
     //  Кнопка Старт отключена во время запущенного уже таймера:
     startBtnEl.setAttribute('disabled', 'true');
     // В инпуте нельзя набрать др дату во время его работы:
-    // inputEl.setAttribute('disabled', 'true');
+    inputEl.setAttribute('disabled', 'true');
     // В инпуте флатпикер создал инпут 2 и мы удалили из html элемент, потом обратились к этому дублю и заблокировали ему возможность перезапуска календаря в процессе его работы:
     document.querySelectorAll('.flatpickr-input')[1].setAttribute('disabled', 'true');
 
