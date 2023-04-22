@@ -202,7 +202,7 @@ function addLeadingZero(value) {
 // import "flatpickr/dist/flatpickr.min.css";
 // import Notiflix from 'notiflix';
 
-// // Отримуємо посилання на елементи 
+// // Отримуємо посилання на елементи
 // const startBtn = document.querySelector('[data-start]');
 // const datetimePicker = document.querySelector('#datetime-picker');
 // const daysElement = document.querySelector('[data-days]');
@@ -239,7 +239,7 @@ function addLeadingZero(value) {
 // // Додаємо слухач на кнопку "Start"
 // startBtn.addEventListener('click', onStartBtn);
 
-// // Колбек функція слухача 
+// // Колбек функція слухача
 // function onStartBtn () {
 //     const selectedDate = new Date(datetimePicker.value);
 //     const timerInterval = setInterval(updateTimer, 1000);
@@ -264,3 +264,11 @@ function addLeadingZero(value) {
 //         secondsElement.textContent = String(seconds).padStart(2, '0');
 //     }
 // }
+
+
+// inputEl.disabled = false;
+            // inputEl.innerHTML = '';
+            // inputEl.setAttribute('disabled', 'true');
+            // inputEl.reset();
+            // inputEl.value.replase();
+            // inpName.reset();
